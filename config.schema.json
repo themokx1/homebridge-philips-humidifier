@@ -1,0 +1,25 @@
+{
+  "pluginAlias": "PhilipsHumi",
+  "pluginType": "accessory",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Accessory Name",
+        "type": "string",
+        "default": "Humi"
+      },
+      "host": {
+        "title": "Device IP Address",
+        "type": "string",
+        "default": "192.168.0.117"
+      },
+      "port": {
+        "title": "CoAP Port",
+        "type": "number",
+        "default": 5683
+      }
+    }
+  }
+}
+

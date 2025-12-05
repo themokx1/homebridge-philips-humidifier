@@ -1,0 +1,22 @@
+{
+  "name": "homebridge-philips-humi",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for controlling Philips HU1509/HU1510 humidifiers through aioairctrl local CoAP+ API",
+  "main": "index.js",
+  "author": "Zoltán Palotai",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "philips",
+    "humidifier",
+    "hu1509",
+    "hu1510",
+    "airpurifier",
+    "coap"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "homebridge": ">=1.6.0"
+  }
+}
+
